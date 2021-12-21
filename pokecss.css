@@ -24,6 +24,9 @@ body {
   .carta {
     list-style: none;
     padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:-80px;
     background-image: url("https://www.bing.com/th/id/OGC.7fd1c486b31cb2d092a9f69ee2202174?pid=1.7&rurl=https%3a%2f%2fi.gifer.com%2forigin%2f64%2f64d2d4eb07e6773e3c7efae14a33afb0.gif&ehk=s13NRAvPzqfVy53oiAgGoQYXpp20phNh6A343UngMW8%3d");
     color: rgb(231, 15, 15);
     text-align: center;
