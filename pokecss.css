@@ -3,7 +3,7 @@ body {
    background-color: royalblue;
     margin: 0;
     font-family: rubik;
-    color:yellow;
+    
 
   }
   .container {
@@ -12,14 +12,26 @@ body {
   }
   .pokedex{
     background-image: url("https://www.bing.com/th/id/OGC.5904018a33940faa51a53b6ee87c2c27?pid=1.7&rurl=https%3a%2f%2fgifmaniacos.es%2fwp-content%2fuploads%2f2017%2f03%2festrellas-del-cielo-animadas-gifmaniacos.es-7.gif&ehk=Z%2b2bqbcHQO8GFo7p41p7nnF9Co9bZ5xLaAo6h3j13hs%3d");
+    display: flex;
+    align-items: cente;
+    justify-content: center;
     text-align: center;
+    color:yellow;
 
   }
+  .myinput{
+    display:inline-flexbox;
+    margin-left:35%;
+    padding:auto;
+       
+  }
+
  
   h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 54px;
+    
   }
   .carta {
     list-style: none;
