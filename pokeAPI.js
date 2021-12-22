@@ -45,3 +45,5 @@ div$$.innerHTML += pokeHTML;
 };
 //input$$.addEventListener("input", promisePokemon)
 promisePokemon();
+ // El codico lo saque con sergio Gonzalez se puso paso a paso con migo.
+ // Y otra mencion a Yoel,alba, jonathan, Santi, sergio pitel que hicimos otro html con map que lo echamos atras.
