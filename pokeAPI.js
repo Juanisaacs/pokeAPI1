@@ -1,7 +1,8 @@
 
 	const pokedex = document.querySelector(".pokedex");
 	const div$$ = document.querySelector(".container");
-    const input$$ = document.querySelector(".myinput");
+
+    //const input$$ = document.querySelector(".myinput");
 
 
 /*const seachpokemon = event => {
@@ -18,8 +19,8 @@ for (let i = 1; i < 151; i++) { // hacemos un buclue para recorrer los 151 pokem
 
     const pokeApi = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`);// con el await fech recogemos la promesa para ver la poke api por dentro y coger los datos
     const pokeres = await pokeApi.json(); 
-    /* console.log(pokeres); */
-    const pokemon ={ // creamos una constante con lo que vamos a coger y recorer la poke api
+     console.log(pokeres); 
+    const pokemon ={ // creamos una constante con lo que vamos a coger y recorer la ruta de la poke api
 		nombre: pokeres.name.toUpperCase(),
 		numero: pokeres.id,
 		imagen: pokeres.sprites.other.dream_world.front_default,
@@ -28,7 +29,7 @@ for (let i = 1; i < 151; i++) { // hacemos un buclue para recorrer los 151 pokem
 	/*const filterpokemon = pokemon.filter((pokeres)=> pokeres.name.toUpperCase().includes(input$$.value)|| 
 	pokeres.id().includes(input$$.value)) */
 
-	//console.log(pokemon);
+	console.log(pokemon);
 	const pokeHTML=  //creamos una constante para introducirlos en el htlm y poder pintaros con css 
 	`
 	 <div class="carta">
@@ -46,4 +47,4 @@ div$$.innerHTML += pokeHTML;
 //input$$.addEventListener("input", promisePokemon)
 promisePokemon();
  // El codico lo saque con sergio Gonzalez se puso paso a paso con migo.
- // Y otra mencion a Yoel,alba, jonathan, Santi, sergio pitel que hicimos otro html con map que lo echamos atras.
+ // Y otra mencion a Yoel,alba, jonathan, Santi, sergio pitel, Andres que hicimos otro html con map que lo echamos atras.
